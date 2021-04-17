@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="23" viewBox="0 0 109 23">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 32px;
+        font-family: Rubik;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        fill: #009688;
+      }
+    </style>
+  </defs>
+  <text id="In_Time" data-name="In Time" class="cls-1" x="-2" y="22.989">In <tspan class="cls-2">Time</tspan></text>
+</svg>

@@ -1,0 +1,453 @@
+@media (max-width: 1221px) {
+  .container,
+  .benefits-item,
+  .images,
+  .clients,
+  .logtypes,
+  .contacts,
+  .options,
+  .form-item-holder-left,
+  .form-item-holder-right,
+  .button-send,
+  .column {
+    width: 100%;
+  }
+  .images{
+    justify-content: center;
+  }
+   form{
+    width: 94%;
+  }
+  .logotype{
+  margin-left: 40px;
+}
+.benefits-item p{
+  margin-right: 30px;
+}
+.benefits-item h2::before{
+left: 350px;
+}
+.benefits-item h3::before{
+left: 330px;
+}
+.benefits-item h4::before{
+left: 312px;
+}
+.column{
+  flex-direction: column;
+}
+.create{
+  height: 500px;
+}
+input[type="email"] {
+  width: 100%;
+}
+input[type="text"] {
+width: 100%;
+margin-bottom: 20px;
+}
+  .options{
+  display: block;
+}
+.side{
+  margin-bottom: 13px;
+}
+nav li:not(:last-child){
+  margin-right: 17px;
+}
+.logtypes{
+  justify-content: center;
+}
+.logtypes li{
+margin: 0 50px 30px 50px;
+}
+}
+@media (max-width: 1050px) {
+nav li:not(:last-child){
+  margin-right: 10px;
+}
+nav li a{
+  padding: 10px 15px;
+}
+.create{
+  height: 482px;
+}
+}
+@media (max-width: 1024px) {
+.contacts p{
+  margin-bottom: 69px;
+}
+.portfolio span,
+.benefits-item{
+  padding-bottom: 87px;
+}
+.portfolio p,
+.create,
+.main-header{
+   margin-bottom: 87px;
+}
+.benefits{
+  flex-direction: column;
+}
+.clients p,
+.description p {
+    padding-bottom: 100px;
+}
+.benefits-title{
+margin-bottom: 31px;
+}
+.contacts{
+  height: 886px;
+}
+.benefits-item h2::before{
+left: 347px;
+}
+.benefits-item h3::before{
+left: 326px;
+}
+.benefits-item h4::before{
+left: 309px;
+}
+.benefits-item p{
+      margin-right: 0;
+}
+.header{
+  height: 97px;
+}
+.logotype .name{
+height: 33px;
+}
+.intro p{
+  margin: 0 10px 71px 10px;
+  text-align: center;
+}
+}
+@media (max-width: 976px) {
+.main-header{
+  position: relative;
+}
+.main-nav input[type="checkbox"]:checked~ul{
+transform: none;
+}
+.main-nav input[type="checkbox"]{
+  left: -99999px;
+  position: absolute;
+}
+.main-nav ul{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  background: rgb(239, 222, 37);
+  width: 100%;
+  z-index: 10;
+  padding-top: 90px;
+  transform: translate(0, -700vh);
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.main-nav ul li{
+  margin-bottom: 60px;
+}
+nav li.active a:hover,
+nav li a:hover{
+  color: grey;
+}
+nav li.active a,
+.main-nav ul a{
+  font-size: 25px;
+  color: #4f4400;
+}
+.burger{
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 42px;
+  height: 40px;
+  z-index: 11;
+  background: grey;
+  border: 2px solid #ffe600;
+  border-radius: 16%;
+}
+.burger span{
+width: 40px;
+height: 5px;
+background: #ffe600;
+border: 1px solid;
+border-radius: 5px;
+position: absolute;
+left: 0;
+transition: all 0.5s ease;
+}
+.burger span:first-child{
+top: 6px;
+width: 32px;
+}
+.burger span:nth-child(2){
+top: 16px;
+width: 26px;
+}
+.burger span:last-child{
+  top: 26px;
+  width: 18px;
+}
+.main-nav input[type="checkbox"]:checked+label span:first-child{
+  transform: rotate(-225deg);
+top: 17px;
+  left: 2px;
+  width: 34px;
+}
+.main-nav input[type="checkbox"]:checked+label span:last-child{
+  top: 17px;
+  left: 2px;
+  width: 34px;
+transform: rotate(225deg);
+}
+.main-nav input[type="checkbox"]:checked+label span:nth-child(2){
+  opacity: 0;
+}
+}
+@media (max-width: 946px) {
+  .benefits-item h2::before{
+left: 310px;
+}
+.benefits-item h3::before{
+left: 288px;
+}
+.benefits-item h4::before{
+left: 271px;
+}
+}
+@media (max-width: 871px) {
+    .benefits-item h2::before{
+left: 276px;
+}
+.benefits-item h3::before{
+left: 254px;
+}
+.benefits-item h4::before{
+left: 237px;
+}
+}
+@media (max-width: 805px) {
+.benefits-item h2::before{
+left: 244px;
+}
+.benefits-item h3::before{
+left: 222px;
+}
+.benefits-item h4::before{
+left: 205px;
+}
+}
+@media (max-width: 768px) {
+footer a {
+  margin-right: 15px;
+}
+.clients{
+    height: 425px;
+}
+.contacts{
+  height: 800px;
+}
+.create {
+  height: 390px;
+}
+.portfolio p,
+.contacts p{
+  margin-bottom: 49px;
+}
+.portfolio h2,
+.contacts h2 {
+  margin-bottom: 20px;
+}
+.portfolio span{
+  padding-bottom: 49px;
+}
+.create{
+  margin-bottom: 61px;
+  height: 425px;
+}
+.description p{
+  padding-bottom: 70px;
+}
+.main-header{
+  margin-bottom: 61px;
+}
+.clients p{
+  padding-bottom: 70px
+}
+.benefits-item{
+  padding-bottom: 72px;
+}
+}
+@media (max-width: 739px) {
+  .benefits-item h2::before{
+left: 211px;
+}
+.benefits-item h3::before{
+left: 189px;
+}
+.benefits-item h4::before{
+left: 172px;
+}
+}
+@media (max-width: 676px) {
+  .benefits-item h2::before{
+left: 178px;
+}
+.benefits-item h3::before{
+left: 151px;
+}
+.benefits-item h4::before{
+left: 139px;
+}
+}
+@media (max-width: 608px) {
+.benefits-item h2::before{
+left: 112px;
+}
+.benefits-item h3::before{
+left: 86px;
+}
+.benefits-item h4::before{
+left: 73px;
+}
+.intro-content{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.create {
+  height: 334px;
+}
+}
+@media (max-width: 570px) {
+.logtypes li{
+margin: 0 30px 20px 30px;
+}
+.images li{
+  margin: 0 0 20px 0;
+}
+.create em{
+font-size: 24px;
+}
+}
+@media (max-width: 500px) {
+.logotype {
+  margin-left: 20px;
+}
+.burger {
+  right: 20px;
+}
+.intro {
+    min-height: 738px;
+}
+.side,
+.sidebar{
+  display: block;
+  width: 100%;
+}
+footer{
+  height: 87px;
+  justify-content: center;
+  flex-direction: column;
+}
+footer p{
+  margin-bottom: 14px;
+}
+}
+@media (max-width: 465px) {
+  .burger{
+    right: 20px;
+  }
+.benefits-item h2::before{
+left: 85px;
+}
+.benefits-item h3::before{
+left: 62px;
+}
+.benefits-item h4::before{
+left: 49px;
+}
+}
+@media (max-width: 415px) {
+  .benefits-item h2::before{
+left: 77px;
+}
+.benefits-item h3::before{
+left: 59px;
+}
+.benefits-item h4::before{
+left: 41px;
+}
+}
+@media (max-width: 377px) {
+.benefits-item h2::before{
+left: 59px;
+}
+.benefits-item h3::before{
+left: 41px;
+}
+.benefits-item h4::before{
+left: 25px;
+}
+.description p,
+.create p,
+.portfolio p,
+.clients p {
+  font-size: 12px;
+}
+.description h1,
+.contacts h2,
+.portfolio h2,
+.clients h2{
+  font-size: 23px;
+}
+.intro {
+  min-height: 665px;
+}
+footer a {
+  margin-right: 9px;
+}
+}
+@media (max-width: 321px) {
+  .intro small,
+  .intro p,
+  .intro-content a.button,
+  .main-logo {
+    margin-bottom: 40px;
+  }
+  .intro p{
+    font-size: 32px;
+  }
+  .intro small {
+    font-size: 12px;
+}
+.intro-content a.button {
+    padding: 18px 60px;
+}
+.intro {
+    min-height: 570px;
+}
+.benefits-item h2::before{
+left: 40px;
+padding-right: 6px;
+}
+.benefits-item h3::before{
+left: 22px;
+padding-right: 6px;
+}
+.benefits-item h4::before{
+left: 6px;
+padding-right: 6px;
+}
+.create em {
+  font-size: 20px;
+}
+.create p{
+  font-size: 11px;
+}
+}
